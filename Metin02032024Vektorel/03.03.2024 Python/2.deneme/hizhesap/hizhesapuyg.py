@@ -1,0 +1,11 @@
+def hizmenu () :
+    print("╔═════════════════════╗")
+    print("║Hangisi çevirilsin   ║")
+    print("║                     ║")
+    print("║  1-Kmh to Mph       ║")
+    print("║  2-Mph to kmh       ║")
+    print("║  3-                 ║")
+    print("║  4-                 ║")
+    print("║                     ║")
+    print("║    Seçimiz nedir?   ║")
+    print("╚═════════════════════╝")
