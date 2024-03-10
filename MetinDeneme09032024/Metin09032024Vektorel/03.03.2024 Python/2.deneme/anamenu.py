@@ -1,6 +1,7 @@
 import hesaplar.hesapmakinesi
 import hizhesap.hizhesapuyg
 import nothesap.nothesaplama
+import cizimler.cizim
 def anamenu():
     print("╔═════════════════════╗")
     print("║     ANAMENU         ║")
@@ -24,6 +25,9 @@ def anamenu():
     if secim == "3" :
         nothesap.nothesaplama.notmenu ()
         anamenu ()
+    if secim == "4" :
+        cizimler.cizim.cmenu ()
+        anamenu ()    
     if secim == "E" or secim == "e" :
         exit ()
     else:
