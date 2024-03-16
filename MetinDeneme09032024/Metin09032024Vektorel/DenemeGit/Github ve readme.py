@@ -1,1 +1,0 @@
-print ("Github'a vs den code atma")
