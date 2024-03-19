@@ -1,5 +1,5 @@
+import hesaplar.hesaplamalar
 def hmmenu():
-    
     print("╔═════════════════════╗")
     print("║HESAP MAKİNESİ       ║")
     print("║                     ║")
@@ -11,3 +11,7 @@ def hmmenu():
     print("║    Seçimiz nedir?   ║")
     print("╚═════════════════════╝")
     secim = input ()
+
+    if secim == "1" :
+        hesaplar.hesaplamalar.toplamamenu ()
+        hmmenu ()
