@@ -1,12 +1,8 @@
-def hizmenu () :
-    print("╔═════════════════════╗")
-    print("║Hangisi çevirilsin   ║")
-    print("║                     ║")
-    print("║  1-Kmh to Mph       ║")
-    print("║  2-Mph to kmh       ║")
-    print("║  3-                 ║")
-    print("║  4-                 ║")
-    print("║                     ║")
-    print("║    Seçimiz nedir?   ║")
-    print("╚═════════════════════╝")
-    secim = input ()
+def hizmenu():
+    def donustur(aa):
+        print(f"KMH'nin MPH cinsinden karşılığı:{0.6214*aa}")
+    sayi1 = int(input("Kmh Nedir?"))
+    donustur(sayi1)
+
+input()
+    
