@@ -1,7 +1,7 @@
 def umenu():
     def uzunluk(aa):
-        print(f"Santimetre cinsinden uzunluk ölçüsü giriniz:{0.393701*aa}")
-    sayi1 = int(input("Birim giriniz"))
+        print(f"Santimetrenin inç değerinden karşılığı:{0.393701*aa}")
+    sayi1 = int(input("Santimetre giriniz"))
     uzunluk(sayi1)
 
 input()
